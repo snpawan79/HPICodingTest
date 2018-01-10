@@ -7,13 +7,13 @@ namespace HPI.DataAccessLayer.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class ProductSchema : IMigrationMetadata
+    public sealed partial class CreateProductDb : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(ProductSchema));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateProductDb));
         
         string IMigrationMetadata.Id
         {
-            get { return "201801100526338_ProductSchema"; }
+            get { return "201801101630552_CreateProductDb"; }
         }
         
         string IMigrationMetadata.Source

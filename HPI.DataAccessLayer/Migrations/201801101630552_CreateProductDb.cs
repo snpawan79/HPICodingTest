@@ -5,7 +5,7 @@ namespace HPI.DataAccessLayer.Migrations
     using System.Data.Entity.Infrastructure.Annotations;
     using System.Data.Entity.Migrations;
     
-    public partial class ProductSchema : DbMigration
+    public partial class CreateProductDb : DbMigration
     {
         public override void Up()
         {

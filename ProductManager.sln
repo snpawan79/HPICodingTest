@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPI.DataAccessLayer", "HPI.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPI.NUnit.Tests", "HPI.NUnit.Tests\HPI.NUnit.Tests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPI.WebAPI", "HPI.WebAPI\HPI.WebAPI.csproj", "{0E40B27D-D7B1-4030-9042-255055783285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPI.BusinessServices", "HPI.BusinessServices\HPI.BusinessServices.csproj", "{90AF4C8E-2137-457A-AED1-360AD3C6B6B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +37,19 @@ Global
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E40B27D-D7B1-4030-9042-255055783285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E40B27D-D7B1-4030-9042-255055783285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E40B27D-D7B1-4030-9042-255055783285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E40B27D-D7B1-4030-9042-255055783285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AF4C8E-2137-457A-AED1-360AD3C6B6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AF4C8E-2137-457A-AED1-360AD3C6B6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AF4C8E-2137-457A-AED1-360AD3C6B6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AF4C8E-2137-457A-AED1-360AD3C6B6B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
 	EndGlobalSection
 EndGlobal

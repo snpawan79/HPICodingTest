@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity.ModelConfiguration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using HPI.BusinessEntities;
+﻿using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.Infrastructure.Annotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
+using HPI.DataAccessLayer.DataModels;
 namespace HPI.DataAccessLayer
 {
     public class ProductMap: EntityTypeConfiguration<Product>
